@@ -1,0 +1,39 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/profile/profile.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/card/card.css');
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_is-animated/popup_is-animated.css');
+@import url('../blocks/popup/_is-opened/popup_is-opened.css');
+
+.form__input_type_error {
+    border-bottom-color: red;
+} 
+
+.form__input-error_active {
+    display: block;
+}
+
+.button_unactive {
+    background: white;
+    border: 1px #C4C4C4 solid;
+    color: #c4c4c4;
+    pointer-events: none;
+    user-select: none;
+}
+
+.form__input-error {
+    color: red;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+}
+
+.profile__image {
+    /* background-image: url("../images/avatar.jpg"); */
+}
